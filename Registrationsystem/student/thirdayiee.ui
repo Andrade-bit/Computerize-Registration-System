@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>781</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    background-color: #000000;
+
+}
+</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font: 30pt &quot;Segoe UI&quot;;
+   color: #85E2FF;
+    background-color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>STUDENT REVIEW</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>771</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+    background-color: #E0DDDD;
+
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>771</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: #e5e5e5;
+
+}
+</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #85E2FF;
+    color: #000000;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #33CCFF;
+}
+QPushButton:pressed {
+    background-color: #ffffff;
+    color: #000000;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Accounts</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>0</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #85E2FF;
+    color: #000000;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #33CCFF;
+}
+QPushButton:pressed {
+    background-color: #ffffff;
+    color: #000000;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Student review</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>711</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>true</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SelectionMode::ContiguousSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectionBehavior::SelectRows</enum>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>104</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>FULL NAME</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DATE OF BIRTH</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SEX</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>MOBILE NUMBER</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>EMERGENCY NUMBER</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ADDRESS</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>GRADE(11, 12)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>STRAND CHOOSEN</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>STUDENT ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>PHOTO</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>REGESTERED DATE</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Goodmoral</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Student form</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>STAFF ID</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>0</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #85E2FF;
+    color: #000000;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #33CCFF;
+}
+QPushButton:pressed {
+    background-color: #ffffff;
+    color: #000000;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PDF</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
